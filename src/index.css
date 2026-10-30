@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nexo-navy: #0B2545;
+  --color-nexo-dark: #0F172A;
+  --color-nexo-blue: #2563EB;
+  --color-nexo-slate-blue: #3B82F6;
+  --color-nexo-gray: #F3F4F6;
+  --color-nexo-gray-card: #F3F4F6;
+}
+
+@layer base {
+  :root {
+    --nexo-navy: #0B2545;
+    --nexo-accent: #2563EB;
+    --nexo-slate-blue: #3B82F6;
+    --nexo-dark: #0F172A;
+    --nexo-gray-light: #F3F4F6;
+    --nexo-gray-card: #F3F4F6;
+  }
+
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0F172A;
+    background-color: #FFFFFF;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Refined Header Typography: font-medium / font-semibold with tight letter-spacing */
+  h1 {
+    font-weight: 600;
+    letter-spacing: -0.028em;
+    line-height: 1.18;
+  }
+
+  h2 {
+    font-weight: 500;
+    letter-spacing: -0.022em;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.35;
+  }
+}
+
+/* Custom smooth transitions and corporate subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

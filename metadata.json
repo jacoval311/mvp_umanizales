@@ -1,0 +1,6 @@
+{
+  "name": "NEXO - Consultoría Estratégica",
+  "description": "Firma de consultoría estratégica y desarrollo de negocios. Acompañamos a empresas en inteligencia de mercado, estrategia comercial y expansión sostenible.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
